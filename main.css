@@ -5,6 +5,7 @@
 }
 
 html {
+    scroll-behavior: smooth;
     font-family: Arial, Helvetica, sans-serif;
 }
 a{
@@ -130,13 +131,13 @@ li{
     position: relative;
 }
 #type{
-    position: -webkit-sticky; 
+    
     position: sticky;
     top: 0;
     margin: 0 248px;
     width: 1040px;
-    text-align: center;
     height:23px;
+    text-align: center;
     background-color: white;
     z-index: 7;
     border-bottom: 2px solid red;
@@ -395,5 +396,15 @@ margin-left: 30px;
     text-align: center;
     line-height: 585px;
     transform: translateY(-240px);
+}
+.back-to-top a{
+    float:right;    
+    transform: translateX(190px);
+    width: 40px;
+    height: 40px;
+    background-color: rgb(218, 216, 216);
+    line-height: 40px;
+    font-weight: 1000;
+    
 }
 
