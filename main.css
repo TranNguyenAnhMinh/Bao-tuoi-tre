@@ -356,7 +356,7 @@ margin-left: 30px;
     width: 585px;
     position: relative;
 }
-.comment-writte span{
+.comment-writte input{
     margin-left: 20px;
    line-height:50px ;
    color: grey;
