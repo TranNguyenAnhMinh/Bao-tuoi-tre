@@ -11,3 +11,19 @@ function changeImage() {
     }
 }
 setInterval(changeImage, 500);
+
+document.querySelector(".close").addEventListener
+("click", function(){
+document.querySelector(".pop-up").style.display="none";
+});
+
+
+window.addEventListener("load", function(){
+    this.setTimeout(
+        function open(evnet){
+            document.querySelector("#pop-up").style.display="block";
+        },1000
+    )
+})
+
+

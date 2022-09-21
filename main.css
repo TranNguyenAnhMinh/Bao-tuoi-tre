@@ -11,6 +11,7 @@ html {
 a{
     text-decoration: none;
     color: black;
+    
 }
 li{
     list-style-type: none;
@@ -407,4 +408,18 @@ margin-left: 30px;
     font-weight: 1000;
     
 }
+.pop-up{
+    position: absolute;
+ 
+    margin-top: 40%;
+float: right;
+transform: translate(220%, 25px);
 
+}
+.close{
+    width: 20px;
+
+    position: absolute;
+    background-color: rgb(210, 210, 210);
+    cursor: pointer;
+}
